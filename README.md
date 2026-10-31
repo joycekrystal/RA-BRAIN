@@ -25,9 +25,11 @@ For frontend design checks: “Use design-review to review PR <URL> against Figm
 
 Application knowledge remains in repository files and/or Confluence; chat memory is not a database. This package provides reusable skills, not hosted storage or automatic synchronization. Future standards updates can be made to this same plugin; integrate further providers when required.
 
-## Current private release
+## Repository version and private plugin
 
-Version: 0.2.0
+Version: 0.2.1
+
+Last published private release: 0.2.0. Version 0.2.1 is prepared locally.
 
 Plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 
@@ -42,3 +44,7 @@ Read the [complete skill usage guide](docs/USAGE_GUIDE.md) for when to use each 
 ## Agent handoff
 
 Read [the agent reference and handoff](docs/AGENT_HANDOFF.md) for project intent, repository structure, integration status, delivery standards and instructions for future updates.
+
+## Contributing and releases
+
+Record every change with its date and bump the semantic version before merging to `main`. See [release policy](docs/RELEASING.md) for patch/minor/major classification, synchronized manifests and the automated PR check.

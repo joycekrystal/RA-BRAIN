@@ -1,0 +1,6 @@
+---
+name: knowledge-maintenance
+description: "Use when creating or evolving an application knowledge base, updating business or technical documentation, or checking documentation drift."
+---
+
+Read ../delivery-standards/references/shared-rules.md and ../delivery-standards/references/templates.md. Locate the existing knowledge index and source documents before creating duplicates. Organize business overview, domain glossary, capabilities, feature specifications, architecture, ADRs, API/data contracts, design references, engineering standards, test strategy, operations and release history. Keep one canonical document per concern; link to source systems rather than copying entire workspaces. Record document owner when known, status, source revision and review date. Compare a bounded set of changed code/tickets/designs to related documentation and show concrete conflicts or stale sections. Draft targeted updates and record decisions in ADRs with context, options, decision and consequences. Preserve history and approved decisions; mark supersession explicitly. Maintain a change log and criterion-to-test traceability. Propose refinements to general plugin standards separately from project facts. No background monitoring, automatic sync, or persistent storage is provided by this package.

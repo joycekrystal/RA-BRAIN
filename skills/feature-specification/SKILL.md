@@ -1,0 +1,6 @@
+---
+name: feature-specification
+description: "Use when creating business feature documentation, a PRD, Jira-ready tickets, acceptance criteria or an implementation plan."
+---
+
+Read ../delivery-standards/references/shared-rules.md and ../delivery-standards/references/templates.md. Retrieve the business brief, relevant Jira issue and related work, Confluence specifications, Figma nodes and implementation context when available. Establish source references before drafting. Define problem, business outcome, personas, scope and exclusions, user journey, domain rules, permissions, data lifecycle, API/event contracts, dependencies, analytics, migration/rollout and failure behavior. Write uniquely numbered, observable acceptance criteria using Given/When/Then where helpful, including negative and boundary cases. Separate business acceptance criteria from engineering tasks and nonfunctional constraints. Specify measurable performance, accessibility, privacy and reliability needs based on project context rather than invented targets. Map every criterion to design/code/test expectations; list ambiguities and unresolved decisions. Produce reviewable feature documentation and Jira-ready ticket content. Publish only when authorized.

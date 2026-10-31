@@ -8,7 +8,7 @@ Business to Build helps move from a business idea to a specified, reviewed, impl
 
 ## Before you start
 
-Install or enable Business to Build in your host. For Jira and Confluence context, separately connect a supported Atlassian integration; for design context, connect Figma. The available tools and your permissions determine which reads and writes are possible. This package provides skill instructions, shared rules and templates; it does not provide credentials, hosted storage, automatic synchronization or background monitoring.
+Install or enable Business to Build in your host using the [Claude Code, Codex and Antigravity setup guide](COMPATIBILITY.md). You can use workspace skill copies or the supported plugin layout described there. For Jira and Confluence context, separately connect a supported integration; for design context, connect Figma. The available tools and your permissions determine which reads and writes are possible. This package provides skill instructions, shared rules and templates; it does not provide credentials, hosted storage, automatic synchronization or background monitoring.
 
 Give the agent the application repository or working directory, the outcome you want, and relevant source links or IDs. Include the existing documentation index, Jira issue/project, Confluence page/space and Figma file/node when applicable. You do not need every integration for every task. Without a provider, the agent can prepare local drafts and identify which source checks remain pending.
 

@@ -2,10 +2,20 @@
 
 ## Business to Build
 
-A private standards and workflow plugin for business modeling, feature documentation, design reviews, implementation and application knowledge maintenance.
+A reusable skills package for Claude Code, Codex and Antigravity covering business modeling, feature documentation, design reviews, implementation and application knowledge maintenance. The existing private Codex plugin identity is preserved.
 
 ## Setup
-Install this plugin and separately install/connect Atlassian (Jira and Confluence) and Figma through the plugin directory. Provider authentication stays with those integrations. No MCP endpoints or credentials are embedded in this package. External read/write capability depends on their connected tools and permissions.
+
+For a workspace installation across all three assistants, run from this repository:
+
+```sh
+python3 scripts/install_skills.py --target /absolute/path/to/application --dry-run
+python3 scripts/install_skills.py --target /absolute/path/to/application
+```
+
+See the [compatibility and installation guide](docs/COMPATIBILITY.md) for per-assistant options, Claude Code local plugin loading, update handling and verification limits. All six skills remain canonical under `skills/`.
+
+Alternatively, retain the existing private Codex plugin installation. Separately configure supported Atlassian (Jira and Confluence), Figma and PR-hosting integrations in each assistant as needed. Provider authentication stays with those integrations. No MCP endpoints or credentials are embedded in this package. External read/write capability depends on available tools and permissions.
 
 Start with: “Use Business to Build to onboard this repository and establish the application knowledge base.” Supply the repository and, when relevant, the Jira project, Confluence space and Figma file. Existing project conventions take precedence over generic suggestions.
 
@@ -21,7 +31,7 @@ Version: 0.1.0
 
 Plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 
-This repository is the source for future updates to the same plugin. Package the root manifest, skills, and README as one plugin archive; exclude Git metadata.
+This repository is the source for future updates to the same plugin. Package the root manifest, `.claude-plugin/plugin.json`, skills, README and linked documentation as one plugin archive; exclude Git metadata, caches and unrelated development artifacts. Include the installer when distributing source for workspace setup. Repository compatibility changes do not publish a new private release.
 
 ## Usage guide
 

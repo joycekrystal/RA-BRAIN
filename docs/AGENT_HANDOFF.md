@@ -78,6 +78,8 @@ The plugin directory search identified Figma and Atlassian as available integrat
 
 For a new session, discover current tools and connection state first. Use the connected providers for supported operations. Confirm the actual capabilities before promising Figma creation/editing or a particular Jira/Confluence action. Do not invent MCP endpoints, OAuth settings, project IDs, spaces, file IDs or app dependency identifiers.
 
+When a supplied link cannot be read, the shared rules require an explicit request to connect or reconnect the appropriate provider MCP server in the current assistant, explaining the failure and needed access. Retry the read after connection; keep dependent analysis pending until verified. Corrected links or owner-granted permissions may also be necessary.
+
 This package currently contains neither `mcp.json` nor `.app.json`; it does not automatically install or authenticate these dependencies. Continue useful drafting when a provider is unavailable and clearly mark source verification pending.
 
 The creator has not supplied a target application repository, Jira project, Confluence space or Figma file for onboarding. The plugin repository itself is not evidence of the application's technology stack.

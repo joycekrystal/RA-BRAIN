@@ -8,6 +8,14 @@ Rationale: Add an explicit canonical application knowledge-base creation/update 
 - 2026-10-31: Extend knowledge-maintenance with canonical concern indexing, durable user-decision capture, explicit supersession and scoped evidence coverage.
 - 2026-10-31: Add a packaged knowledge-base reference and shared index template, with guarded publication and saved-content verification guidance.
 - 2026-10-31: Update usage documentation and handoff while preserving existing drift-review prompts and Claude Code, Codex and Antigravity layouts.
+- 2026-10-31: Resolve main-branch conflicts while preserving version 0.3.0, the 0.2.4 release history and Rewards Application documentation.
+
+## 0.2.4 — 2026-10-31
+
+Release type: patch
+Rationale: Initialize Rewards Application canonical knowledge base, feature specifications and traceability matrix.
+
+- 2026-10-31: Add Rewards Application domain glossary, business overview, architecture, decision record and specifications FEAT-001 through FEAT-005.
 
 ## 0.2.3 — 2026-10-31
 

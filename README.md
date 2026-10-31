@@ -27,9 +27,9 @@ Application knowledge remains in repository files and/or Confluence; chat memory
 
 ## Repository version and private plugin
 
-Version: 0.2.3
+Version: 0.2.4
 
-Source version 0.2.3 is prepared locally; it has not been published.
+Source version 0.2.4 is prepared locally; it has not been published.
 
 Last verified published private release: 0.2.2 (2026-10-31).
 

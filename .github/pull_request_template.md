@@ -14,4 +14,8 @@ Describe the behavior and compatibility impact.
 
 ## Verification
 
+- [ ] Existing workflows remain compatible with Claude Code, Codex and Antigravity.
+- [ ] Host-specific features have portable fallbacks; skill metadata and support-file references remain valid.
+- [ ] Per-host checks and unverified runtime/integration behavior are recorded.
+
 Record commands run, outcomes and unverified behavior.

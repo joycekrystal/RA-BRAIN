@@ -27,9 +27,9 @@ Application knowledge remains in repository files and/or Confluence; chat memory
 
 ## Repository version and private plugin
 
-Version: 0.2.1
+Version: 0.2.2
 
-Last published private release: 0.2.0. Version 0.2.1 is prepared locally.
+Last published private release: 0.2.0. Version 0.2.2 is prepared locally.
 
 Plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 

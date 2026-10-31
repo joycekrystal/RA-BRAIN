@@ -1,5 +1,12 @@
 # Release notes
 
+## 0.2.2 — 2026-10-31
+
+Release type: patch
+Rationale: Clarify existing cross-assistant compatibility guarantees without changing skill inputs or outputs.
+
+- 2026-10-31: Require backward-compatible skill updates across Claude Code, Codex and Antigravity, with portable fallbacks and explicit per-host verification limits.
+
 ## 0.2.1 — 2026-10-31
 
 Release type: patch

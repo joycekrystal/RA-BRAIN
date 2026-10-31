@@ -13,7 +13,7 @@ The standards should grow as the plugin improves. Apply practices appropriate to
 - Display name: Business to Build.
 - Initial created version: `0.1.0`.
 - Last verified published version: `0.2.0`, release `pluginrel_6ae5fad797b88191a23720018afa3afd`.
-- Prepared source version: `0.2.1` (release policy and validation); not yet published. Retrieve backend metadata before publication.
+- Prepared source version: `0.2.2` (cross-assistant backward compatibility policy); not yet published. Retrieve backend metadata before publication.
 - Private plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 - Backend plugin ID: `plugins_6ae5e74e99bc819199d832480fcbb620`.
 - Release created during this work: `pluginrel_6ae5e7511408819184dbf587601a5554`.
@@ -123,6 +123,8 @@ Drafting a feature does not by itself authorize creating Jira tickets, editing C
 ## Extending and releasing the plugin
 
 Read [the release policy](RELEASING.md) and repository `AGENTS.md` first. Every change requires a dated changelog record and, before merge to main, a synchronized semantic version bump based on the highest compatibility impact. The PR workflow validates the declared bump; reviewers validate the classification. Making its status check mandatory requires separately configured branch protection/rulesets. Do not claim that GitHub protection is enabled from the existence of a workflow file.
+
+Every skill update must preserve backward compatibility with Claude Code, Codex and Antigravity. Keep shared instructions portable, retain existing workflows and reference paths, and provide fallbacks for host-specific features. Follow the release policy's compatibility review and report actual per-host checks separately from static validation. Removing assistant support requires an explicit scope decision; a major version bump alone is insufficient.
 
 1. Inspect repository instructions, Git state, the manifest and relevant skills.
 2. Define whether the change belongs in generic plugin guidance or application knowledge.

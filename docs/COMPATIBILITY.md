@@ -52,6 +52,13 @@ If a linked source cannot be accessed, the assistant should explain the failure 
 
 ## Verification and official references
 
+Future skill updates must preserve existing workflows across Claude Code, Codex
+and Antigravity. Host-specific features must remain optional with portable
+fallbacks. Review metadata, reference paths, manifests and installer layouts
+before merge, and record per-host checks and unverified behavior. See the
+[release policy](RELEASING.md) for the required compatibility review. A version
+bump does not itself authorize removing support for an assistant.
+
 Source layouts follow the official documentation reviewed on 2026-10-31:
 
 - [OpenAI: Build skills](https://learn.chatgpt.com/docs/build-skills) — Codex workspace discovery in `.agents/skills`.

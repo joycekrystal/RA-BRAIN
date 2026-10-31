@@ -28,6 +28,24 @@ require extending the validator before use.
 
 ## Before merging to main
 
+Every skill update also requires a compatibility review across Claude Code,
+Codex and Antigravity:
+
+- Preserve existing skill names, required inputs, promised outputs and supported
+  workflows. Add new capabilities without requiring changes to existing prompts.
+- Retain portable `SKILL.md` frontmatter, canonical `skills/` content and relative
+  support-file references in both plugin and copied workspace layouts.
+- Keep host-specific commands, APIs and integrations optional; provide a portable
+  fallback and discover capabilities rather than assuming tools exist.
+- Validate all host manifests, installer destinations and shared references.
+  Record actual activation/workflow checks separately for each host; mark any
+  untested assistant or unavailable integration as unverified. Static validation
+  alone does not prove runtime compatibility.
+- Document evidence and remaining risks in the PR. If a change would break a
+  supported assistant, preserve the old path or resolve the scope explicitly
+  with the user before proceeding. A major bump or migration note alone does
+  not authorize dropping support.
+
 1. Review the entire change set against the latest target branch and select the
    highest applicable type: `patch`, `minor` or `major`.
 2. Set the next version in `plugin.json`, `.codex-plugin/plugin.json` and

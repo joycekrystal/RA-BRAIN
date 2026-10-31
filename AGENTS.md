@@ -9,3 +9,9 @@ behavior, not line count. Never edit an already published version in place.
 
 Keep `skills/` canonical and preserve the existing plugin identity. Do not
 publish, push, merge or change repository protection settings unless requested.
+
+Every skill update must preserve compatibility with Claude Code, Codex and
+Antigravity. Follow the compatibility review in `docs/RELEASING.md`: retain
+portable SKILL.md metadata, existing workflows and reference paths, and keep
+host-specific capabilities optional with documented fallbacks. A major version
+bump alone does not authorize dropping support for an assistant.

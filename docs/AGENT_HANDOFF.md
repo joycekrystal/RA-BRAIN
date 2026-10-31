@@ -33,6 +33,7 @@ At the start of this documentation task, Git reported no local changes. Earlier 
 plugin.json
 README.md
 docs/AGENT_HANDOFF.md
+docs/USAGE_GUIDE.md
 skills/
   business-model/SKILL.md
   delivery-standards/
@@ -47,6 +48,8 @@ skills/
 ```
 
 `plugin.json` is the Agent Plugins 1.0 manifest. Skills live one level below `skills/`, with matching YAML `name` fields and directory names. Shared rules and templates live under delivery-standards; other skills refer to them through relative paths.
+
+The [skill usage guide](USAGE_GUIDE.md) documents all six skills with inputs, example prompts, expected outputs and a combined workflow. It is the canonical user guide; keep it aligned when skill behavior changes. Adding it to repository source does not publish a plugin update.
 
 ## Workflow responsibilities
 

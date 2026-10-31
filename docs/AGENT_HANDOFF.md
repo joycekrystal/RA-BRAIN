@@ -11,7 +11,8 @@ The standards should grow as the plugin improves. Apply practices appropriate to
 - Source repository on the creator's machine: `/Users/nichoguimbaolibot/dev/codexskill`.
 - Package name: `business-to-build`.
 - Display name: Business to Build.
-- Current created version: `0.1.0`.
+- Initial created version: `0.1.0`.
+- Prepared upgrade version: `0.2.0`; consult the release notes and retrieve backend metadata to confirm publication status.
 - Private plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 - Backend plugin ID: `plugins_6ae5e74e99bc819199d832480fcbb620`.
 - Release created during this work: `pluginrel_6ae5e7511408819184dbf587601a5554`.

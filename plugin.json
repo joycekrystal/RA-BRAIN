@@ -1,8 +1,23 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "business-to-build",
-  "version": "0.1.0",
+  "author": {
+    "email": "nichoguimbaolibot@gmail.com",
+    "name": "Nicho Guimbaolibot"
+  },
   "description": "Reusable business modeling, application knowledge base, feature planning, design review, and engineering delivery workflows. Uses separately connected Atlassian and Figma plugins for Jira, Confluence, and design context. Stores application knowledge in project documentation rather than implicit chat memory.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "category": "Developer Tools",
+        "defaultPrompt": "Use Business to Build to establish this application’s knowledge base and plan its next feature.",
+        "developerName": "Nicho Guimbaolibot",
+        "displayName": "Business to Build",
+        "longDescription": "Reusable business modeling, application knowledge base, feature planning, design review, and engineering delivery workflows. Uses separately connected Atlassian and Figma plugins for Jira, Confluence, and design context. Stores application knowledge in project documentation rather than implicit chat memory.",
+        "shortDescription": "From business goals to code"
+      }
+    }
+  },
   "keywords": [
     "business-model",
     "jira",
@@ -11,16 +26,6 @@
     "engineering",
     "acceptance-criteria"
   ],
-  "extensions": {
-    "com.openai": {
-      "interface": {
-        "displayName": "Business to Build",
-        "shortDescription": "From business goals to code",
-        "longDescription": "Reusable business modeling, application knowledge base, feature planning, design review, and engineering delivery workflows. Uses separately connected Atlassian and Figma plugins for Jira, Confluence, and design context. Stores application knowledge in project documentation rather than implicit chat memory.",
-        "category": "Developer Tools",
-        "capabilities": [],
-        "defaultPrompt": "Use Business to Build to establish this application\u2019s knowledge base and plan its next feature."
-      }
-    }
-  }
+  "name": "business-to-build",
+  "version": "0.2.0"
 }

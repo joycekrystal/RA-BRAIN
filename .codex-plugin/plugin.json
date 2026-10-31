@@ -1,0 +1,27 @@
+{
+  "interface": {
+    "capabilities": [],
+    "category": "Developer Tools",
+    "defaultPrompt": "Use Business to Build to establish this application\u2019s knowledge base and plan its next feature.",
+    "developerName": "Nicho Guimbaolibot",
+    "displayName": "Business to Build",
+    "longDescription": "Reusable business modeling, application knowledge base, feature planning, design review, and engineering delivery workflows. Uses separately connected Atlassian and Figma plugins for Jira, Confluence, and design context. Stores application knowledge in project documentation rather than implicit chat memory.",
+    "shortDescription": "From business goals to code"
+  },
+  "name": "business-to-build",
+  "version": "0.2.0",
+  "description": "Reusable business modeling, application knowledge base, feature planning, design review, and engineering delivery workflows. Uses separately connected Atlassian and Figma plugins for Jira, Confluence, and design context. Stores application knowledge in project documentation rather than implicit chat memory.",
+  "author": {
+    "name": "Nicho Guimbaolibot",
+    "email": "nichoguimbaolibot@gmail.com"
+  },
+  "keywords": [
+    "business-model",
+    "jira",
+    "confluence",
+    "figma",
+    "engineering",
+    "acceptance-criteria"
+  ],
+  "skills": "./skills"
+}

@@ -187,6 +187,17 @@ Source: [feature-implementation instructions](../skills/feature-implementation/S
 
 ## knowledge-maintenance
 
+For the canonical knowledge-base workflow and reusable structure, read the [knowledge-base reference](../skills/knowledge-maintenance/references/knowledge-base.md). The skill now creates or updates an application index that maps each concern to its source of truth, preserving accepted decisions, supersession, source revisions and verification gaps. Existing drift-review and documentation-update prompts remain supported.
+
+```text
+Use Business to Build's knowledge-maintenance skill to create or update this
+application's canonical knowledge base from <page-or-repository>.
+Read the existing index first. Maintain one canonical document per concern,
+record confirmed decisions and open questions, and map criteria to evidence.
+Publish to <Confluence-page-URL> and update the index; preserve history and
+unrelated content, verify saved revisions, and report remaining gaps.
+```
+
 Use this skill to establish or improve a documentation structure, update documents after a change, record architectural decisions, or inspect a bounded set of sources for documentation drift.
 
 **Provide:** the existing knowledge index and canonical document locations, the feature or change being reviewed, relevant code/tickets/designs, and known owners or accepted decisions. Bound drift checks to a feature, change set or document set so findings can be supported by evidence.

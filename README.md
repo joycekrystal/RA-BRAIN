@@ -20,3 +20,7 @@ Version: 0.1.0
 Plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 
 This repository is the source for future updates to the same plugin. Package the root manifest, skills, and README as one plugin archive; exclude Git metadata.
+
+## Agent handoff
+
+Read [the agent reference and handoff](docs/AGENT_HANDOFF.md) for project intent, repository structure, integration status, delivery standards and instructions for future updates.

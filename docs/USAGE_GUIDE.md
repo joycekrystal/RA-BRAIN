@@ -243,4 +243,4 @@ Business objective → feature → numbered acceptance criterion → design
 → code → test and observed result → documentation
 ```
 
-Missing links should remain pending. If a provider is unavailable, supply accessible source material or reconnect it before treating the corresponding source checks as verified. External writes should be reported with their actual returned links and results.
+Missing links should remain pending. If a source link cannot be read, the assistant should explain the failure and ask you to connect the relevant provider MCP server, or reconnect/authenticate the existing connection. A wrong URL or restricted page may also require a corrected link or owner-granted access. The assistant should retry the read after connection before treating the corresponding source checks as verified. External writes should be reported with their actual returned links and results.

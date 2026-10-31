@@ -11,6 +11,8 @@ Start with: “Use Business to Build to onboard this repository and establish th
 
 Other prompts: “Create a business model and MVP brief”; “Specify feature ABC-123 with criterion-to-test traceability”; “Review this Figma flow against ABC-123”; “Implement ABC-123 using the approved specification”; “Review documentation drift for this feature.”
 
+For frontend design checks: “Use design-review to review PR <URL> against Figma. Find the design references in the PR description and linked ticket, compare the frontend code and rendered UI where available, and report mismatches with design nodes, code locations and verification gaps.”
+
 Application knowledge remains in repository files and/or Confluence; chat memory is not a database. This package provides reusable skills, not hosted storage or automatic synchronization. Future standards updates can be made to this same plugin; integrate further providers when required.
 
 ## Current private release

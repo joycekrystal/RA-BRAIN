@@ -58,11 +58,13 @@ The [skill usage guide](USAGE_GUIDE.md) documents all six skills with inputs, ex
 | delivery-standards | Onboard a project or establish engineering practices | Project profile, knowledge index, adopted standards and delivery traceability |
 | business-model | Explore a business model or solution | Business model canvas, solution brief, MVP scope and validation assumptions |
 | feature-specification | Define a feature or Jira-ready ticket | Business outcome, scope, numbered criteria, contracts, dependencies and delivery plan |
-| design-review | Review Figma or prepare a design handoff | Findings tied to nodes and criteria, UI states, component references and open questions |
+| design-review | Review Figma, compare frontend implementation with designs discovered through PR descriptions and linked tickets, or prepare a design handoff | Findings tied to nodes, criteria and code; source chain; visual/static coverage and verification gaps |
 | feature-implementation | Implement or review a feature | Focused code changes, relevant tests, verification evidence and documentation updates |
 | knowledge-maintenance | Maintain application documentation | Canonical document index, targeted updates, decisions, change history and drift findings |
 
 Read the actual skill and shared references before applying a workflow. This document explains intent; it does not replace their instructions.
+
+Design-review now supports frontend fidelity reviews: resolve Figma references through the PR description and relevant linked ticket, inspect code at the reviewed PR head, and compare rendered UI where available at matching viewports and states. Report verified matches, mismatches and unverified comparisons with source/design/code evidence. These are workflow instructions; no new provider connection or browser capability is bundled, and no real application PR review has been verified by this source change.
 
 ## Integration setup and boundaries
 

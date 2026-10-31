@@ -23,7 +23,7 @@ Specify where artifacts should be saved and whether you want drafts or an extern
 | Onboard an application or agree delivery practices | [delivery-standards](#delivery-standards) | Project profile, knowledge index, standards proposal |
 | Explore a product idea or revise its business model | [business-model](#business-model) | Business model canvas, solution brief, MVP and validation plan |
 | Define a feature before implementation | [feature-specification](#feature-specification) | Feature document, numbered acceptance criteria, Jira-ready content |
-| Review a design or prepare a design handoff | [design-review](#design-review) | Prioritized findings, design brief or implementation handoff |
+| Review a design, compare frontend code with Figma, or prepare a design handoff | [design-review](#design-review) | Prioritized findings, implementation fidelity coverage, design brief or handoff |
 | Implement or review a feature | [feature-implementation](#feature-implementation) | Code changes or review findings, verification evidence, delivery summary |
 | Update documentation or find documentation drift | [knowledge-maintenance](#knowledge-maintenance) | Targeted document updates, decisions, traceability and drift findings |
 
@@ -103,9 +103,26 @@ Source: [feature-specification instructions](../skills/feature-specification/SKI
 
 ## design-review
 
-Use this skill to compare a Figma flow with feature requirements, prepare an implementation handoff, or draft a brief for new designs.
+Use this skill to compare a Figma flow with feature requirements, check frontend implementation against Figma, prepare an implementation handoff, or draft a brief for new designs.
 
-**Provide:** the exact Figma file/node or flow, design-system references, feature specification and numbered acceptance criteria. For a new design brief, provide users, desired behavior, constraints and any existing component system.
+**Provide:** a PR URL and application repository for an implementation review, or the exact Figma file/node or flow for a design review. The agent should read the PR description for direct design links and ticket links, then read the linked tickets for Figma references and criteria. You can also supply a ticket directly. Include design-system references, the feature specification and any approved deviations when available. For a new design brief, provide users, desired behavior, constraints and any existing component system.
+
+**Example frontend implementation review prompt:**
+
+```text
+Use Business to Build's design-review skill to check whether the frontend
+implementation in <PR-URL> matches its specified Figma design.
+Repository: <application-repository>. Preview/setup: <URL-or-instructions>.
+Read the PR description and its linked ticket to find the relevant Figma
+file/nodes and acceptance criteria. Record the source chain and review the
+code at the PR head, including relevant components, styles and assets.
+Compare layout, spacing, typography, tokens, content, responsive behavior,
+UI states and interactions. Where available, inspect the rendered UI at
+matching viewports and states and capture supporting evidence.
+Save prioritized findings with Figma nodes, code locations, expected versus
+observed behavior and suggested corrections to <location>. Include coverage
+and distinguish verified matches, mismatches and unverified comparisons.
+```
 
 **Example review prompt:**
 
@@ -130,7 +147,11 @@ component guidance and unresolved questions.
 
 **Expect:** actionable findings that distinguish observed defects, suggested refinements and missing evidence. Findings should identify specific nodes and criteria where available. The handoff should give an implementer the design context needed to build the feature.
 
+For implementation reviews, expect the PR/ticket/Figma source chain, reviewed code revision, precise code locations, and a coverage table mapping design nodes, states and viewports to routes/components and evidence. Static code checks and rendered browser observations are reported separately. Passing build or lint checks does not establish visual fidelity. Conflicting design references, unavailable previews and unreviewed states remain explicit; one screenshot does not verify every breakpoint or interaction. Approved deviations should be distinguished from defects.
+
 **Next:** resolve material gaps in the design or specification before dependent implementation. Figma creation/editing requires supported connected tools and an authorized action. If the agent cannot read the design, it should identify that limitation and provide a draft or checklist rather than claim a completed design review.
+
+Use feature-implementation for requested code fixes. A review alone does not authorize changing code, posting PR comments or updating external sources. PR, ticket, Figma and runtime access depend on available tools; unavailable comparisons remain unverified.
 
 Source: [design-review instructions](../skills/design-review/SKILL.md).
 

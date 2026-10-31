@@ -48,6 +48,8 @@ Configure PR hosting, Jira/Confluence and Figma access separately in each assist
 
 See the [usage guide](USAGE_GUIDE.md) for every skill's inputs and outputs.
 
+For Jira/Confluence connection problems, follow the [Atlassian MCP setup and troubleshooting guide](../skills/delivery-standards/references/atlassian-mcp-setup.md). It includes the plugin-directory route, Codex CLI and Claude Code commands, portable remote MCP guidance, and a read-only verification prompt.
+
 If a linked source cannot be accessed, the assistant should explain the failure and ask you to connect the relevant provider MCP server in the assistant you are using, or reconnect/authenticate an existing connection. For example: “Please connect the Atlassian MCP server with access to this Confluence space so I can read the Features page.” Missing links or page permissions may additionally require a corrected URL or access from the owner. Do not share credentials in chat. After connection, the assistant must retry the read before treating the source as verified.
 
 ## Verification and official references

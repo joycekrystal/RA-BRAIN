@@ -27,15 +27,19 @@ Application knowledge remains in repository files and/or Confluence; chat memory
 
 ## Repository version and private plugin
 
-Version: 0.2.2
+Version: 0.2.3
 
-Last published private release: 0.2.0. Version 0.2.2 is prepared locally.
+Source version 0.2.3 is prepared locally; it has not been published.
+
+Last verified published private release: 0.2.2 (2026-10-31).
 
 Plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 
 This repository is the source for future updates to the same plugin. Package the root manifest, `.claude-plugin/plugin.json`, skills, README and linked documentation as one plugin archive; exclude Git metadata, caches and unrelated development artifacts. Include the installer when distributing source for workspace setup. Repository compatibility changes do not publish a new private release.
 
 ## Usage guide
+
+Having trouble opening Jira or Confluence links? Use the [Atlassian MCP connection guide](skills/delivery-standards/references/atlassian-mcp-setup.md) for setup, troubleshooting and a verification prompt.
 
 See [release notes](docs/CHANGELOG.md) for changes by version.
 

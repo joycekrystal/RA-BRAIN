@@ -1,5 +1,13 @@
 # Release notes
 
+## 0.2.3 — 2026-10-31
+
+Release type: patch
+Rationale: Make the existing MCP access-recovery workflow actionable with referenced setup instructions; existing skill inputs, outputs and supported assistants are unchanged.
+
+- 2026-10-31: Add a shared Atlassian MCP connection guide covering plugin setup, Codex CLI, Claude Code, portable host setup, permission troubleshooting and read-only verification.
+- 2026-10-31: Require every skill to reference the guide and provide host-appropriate steps when Jira/Confluence access fails; link the guide from user documentation.
+
 ## 0.2.2 — 2026-10-31
 
 Release type: patch

@@ -18,6 +18,8 @@ Specify where artifacts should be saved and whether you want drafts or an extern
 
 ## Choose a skill
 
+If Jira or Confluence cannot be accessed, use the [Atlassian MCP setup guide](../skills/delivery-standards/references/atlassian-mcp-setup.md). Each skill should explain the failure and provide the relevant host's connection steps, then verify access before resuming source-dependent work.
+
 | Your task | Skill | Main outputs |
 | --- | --- | --- |
 | Onboard an application or agree delivery practices | [delivery-standards](#delivery-standards) | Project profile, knowledge index, standards proposal |

@@ -12,8 +12,8 @@ The standards should grow as the plugin improves. Apply practices appropriate to
 - Package name: `business-to-build`.
 - Display name: Business to Build.
 - Initial created version: `0.1.0`.
-- Last verified published version: `0.2.0`, release `pluginrel_6ae5fad797b88191a23720018afa3afd`.
-- Prepared source version: `0.2.2` (cross-assistant backward compatibility policy); not yet published. Retrieve backend metadata before publication.
+- Last verified published version: `0.2.2`, release `pluginrel_6ae5fe3825c88191992c4001d8f222af` (2026-10-31).
+- Source version: `0.2.3` (Atlassian MCP setup/recovery guidance), prepared locally and not yet published. Retrieve fresh backend metadata before the next publication.
 - Private plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 - Backend plugin ID: `plugins_6ae5e74e99bc819199d832480fcbb620`.
 - Release created during this work: `pluginrel_6ae5e7511408819184dbf587601a5554`.
@@ -150,3 +150,7 @@ These are proposals, not completed functionality:
 ## Starter prompt for a new agent
 
 > Work in `/Users/nichoguimbaolibot/dev/codexskill`. Read `docs/AGENT_HANDOFF.md`, `README.md`, `plugin.json`, the relevant skills and their shared references. This repository is the source for the existing private Business to Build plugin. Inspect current Git state before editing. Preserve the plugin identity. Use real connected Atlassian/Figma tools when available and report connection limits accurately. Keep project-specific knowledge separate from reusable plugin standards. Continue with this task: [describe the requested improvement or application onboarding].
+
+## Atlassian access recovery guidance
+
+All six skills read shared rules that reference `skills/delivery-standards/references/atlassian-mcp-setup.md`. On Jira/Confluence access failures, provide host-appropriate setup steps and official references, distinguish authentication from permission/link/service failures, and verify the original source after connection. Keep this guide inside the skills tree so workspace installation preserves it. Live authentication across all hosts remains unverified.

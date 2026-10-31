@@ -1,5 +1,14 @@
 # Release notes
 
+## 0.3.0 — 2026-10-31
+
+Release type: minor
+Rationale: Add an explicit canonical application knowledge-base creation/update workflow and reusable source-of-truth index while retaining existing skill inputs, outputs and assistant support.
+
+- 2026-10-31: Extend knowledge-maintenance with canonical concern indexing, durable user-decision capture, explicit supersession and scoped evidence coverage.
+- 2026-10-31: Add a packaged knowledge-base reference and shared index template, with guarded publication and saved-content verification guidance.
+- 2026-10-31: Update usage documentation and handoff while preserving existing drift-review prompts and Claude Code, Codex and Antigravity layouts.
+
 ## 0.2.3 — 2026-10-31
 
 Release type: patch

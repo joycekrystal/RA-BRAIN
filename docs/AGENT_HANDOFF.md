@@ -13,7 +13,7 @@ The standards should grow as the plugin improves. Apply practices appropriate to
 - Display name: Business to Build.
 - Initial created version: `0.1.0`.
 - Last verified published version: `0.2.2`, release `pluginrel_6ae5fe3825c88191992c4001d8f222af` (2026-10-31).
-- Source version: `0.2.3` (Atlassian MCP setup/recovery guidance), prepared locally and not yet published. Retrieve fresh backend metadata before the next publication.
+- Source version: `0.3.0` (canonical application knowledge-base workflow), prepared locally and not yet published. Retrieve fresh backend metadata before the next publication.
 - Private plugin: https://chatgpt.com/plugins/plugins_6ae5e74e99bc819199d832480fcbb620
 - Backend plugin ID: `plugins_6ae5e74e99bc819199d832480fcbb620`.
 - Release created during this work: `pluginrel_6ae5e7511408819184dbf587601a5554`.
@@ -69,6 +69,8 @@ The [compatibility guide](COMPATIBILITY.md) covers Claude Code, Codex and Antigr
 | design-review | Review Figma, compare frontend implementation with designs discovered through PR descriptions and linked tickets, or prepare a design handoff | Findings tied to nodes, criteria and code; source chain; visual/static coverage and verification gaps |
 | feature-implementation | Implement or review a feature | Focused code changes, relevant tests, verification evidence and documentation updates |
 | knowledge-maintenance | Maintain application documentation | Canonical document index, targeted updates, decisions, change history and drift findings |
+
+Knowledge-maintenance now explicitly creates/updates canonical application knowledge bases. Its packaged `references/knowledge-base.md` defines the concern index, source provenance, user-decision capture, supersession, evidence gaps and guarded publication/read-back workflow. Application facts must stay outside this generic plugin repository. Existing review/update prompts and all three supported assistant layouts remain valid.
 
 Read the actual skill and shared references before applying a workflow. This document explains intent; it does not replace their instructions.
 

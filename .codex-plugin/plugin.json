@@ -9,7 +9,7 @@
     "shortDescription": "From business goals to code"
   },
   "name": "business-to-build",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Reusable business modeling, application knowledge base, feature planning, design review, and engineering delivery workflows. Uses separately connected Atlassian and Figma plugins for Jira, Confluence, and design context. Stores application knowledge in project documentation rather than implicit chat memory.",
   "author": {
     "name": "Nicho Guimbaolibot",

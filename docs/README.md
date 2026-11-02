@@ -28,6 +28,7 @@ The Rewards Application is an e-commerce customer loyalty platform designed to i
 | [docs/business/overview.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/business/overview.md) | Business context, user personas, incentive mechanics, and success metrics. |
 | [docs/domain/glossary.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/domain/glossary.md) | Standardized domain terms, business rules, and definitions. |
 | [docs/architecture/overview.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/architecture/overview.md) | High-level system architecture, entity relationships, security, and token lifecycle. |
+| [docs/design/brand-kit.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/design/brand-kit.md) | Brand Kit, color tokens, typography scales, radii, and component design tokens. |
 | [docs/traceability.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/traceability.md) | Criterion-to-test and criterion-to-implementation traceability matrix. |
 
 ### Feature Specifications (`docs/features/`)
@@ -36,6 +37,9 @@ The Rewards Application is an e-commerce customer loyalty platform designed to i
 * [FEAT-003: Customer Rewards Catalog & Redemption](file:///Users/jclagudas/Downloads/rewardsapp/docs/features/feat-003-rewards-catalog-redemption.md) – Card grid view with pagination, detail popup modal, quantity stepper, points balance verification, and redemption execution.
 * [FEAT-004: Admin Customer Management](file:///Users/jclagudas/Downloads/rewardsapp/docs/features/feat-004-admin-customer-management.md) – Customer roster, point balance inspection, redemption order history, total points spent, and enable/disable account toggling.
 * [FEAT-005: Admin Catalog & System Configuration](file:///Users/jclagudas/Downloads/rewardsapp/docs/features/feat-005-admin-catalog-system-settings.md) – Reward product inventory management (create, update, adjust stock, enable/disable, remove) and system-wide cost-to-points ratio configuration.
+
+### Design Briefs (`docs/design/briefs/`)
+* [FEAT-003: Customer Rewards Catalog Brief](file:///Users/jclagudas/Downloads/rewardsapp/docs/design/briefs/feat-003-rewards-catalog-brief.md) – Visual layout, card anatomy, modal quantity stepper, responsive breakpoints, and 10 essential UI states.
 
 ---
 

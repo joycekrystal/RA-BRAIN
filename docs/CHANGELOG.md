@@ -6,6 +6,7 @@ Release type: patch
 Rationale: Initialize Rewards Application canonical knowledge base, feature specifications and traceability matrix.
 
 - 2026-10-31: Add Rewards Application domain glossary, business overview, architecture, decision record and specifications FEAT-001 through FEAT-005.
+- 2026-11-02: Add brand kit, design tokens, and FEAT-003 Rewards Catalog design brief.
 
 ## 0.2.3 — 2026-10-31
 

@@ -29,6 +29,7 @@ The Rewards Application is an e-commerce customer loyalty platform designed to i
 | [docs/domain/glossary.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/domain/glossary.md) | Standardized domain terms, business rules, and definitions. |
 | [docs/architecture/overview.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/architecture/overview.md) | High-level system architecture, entity relationships, security, and token lifecycle. |
 | [docs/design/brand-kit.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/design/brand-kit.md) | Brand Kit, color tokens, typography scales, radii, and component design tokens. |
+| [docs/design/design.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/design/design.md) | UI & Component Design System: layout shell, card structure, modal stepper, and state machines. |
 | [docs/traceability.md](file:///Users/jclagudas/Downloads/rewardsapp/docs/traceability.md) | Criterion-to-test and criterion-to-implementation traceability matrix. |
 
 ### Feature Specifications (`docs/features/`)

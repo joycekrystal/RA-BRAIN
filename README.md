@@ -6,6 +6,10 @@ A reusable skills package for Claude Code, Codex and Antigravity covering busine
 
 ## Setup
 
+See the [plugin lifecycle and CLI/IDE guide](docs/PLUGIN_GUIDE.md) for local
+Codex plugin installation, workspace skills, package creation, updates and
+cross-assistant usage.
+
 For a workspace installation across all three assistants, run from this repository:
 
 ```sh

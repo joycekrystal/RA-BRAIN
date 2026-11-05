@@ -1,5 +1,9 @@
 # Assistant compatibility and installation
 
+For package creation, local marketplace installation, updates and CLI/IDE
+walkthroughs, see [the plugin guide](PLUGIN_GUIDE.md). Codex CLI supports plugins;
+the Codex IDE extension currently uses the workspace skill route described here.
+
 Business to Build keeps all six workflows in canonical `skills/<name>/SKILL.md` directories. Shared references stay under `delivery-standards/references`; always distribute all six directories together because the skills reference one another. The skill content is shared across assistants; discovery and integrations depend on the host.
 
 ## Quick setup for an application workspace

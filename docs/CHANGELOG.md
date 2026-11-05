@@ -5,6 +5,8 @@
 Release type: minor
 Rationale: Add an explicit canonical application knowledge-base creation/update workflow and reusable source-of-truth index while retaining existing skill inputs, outputs and assistant support.
 
+- 2026-11-05: Add plugin creation, update and CLI/IDE installation guide with current official references and local CLI help checks; compatible documentation addition, with no changes to skills or installer behavior.
+- 2026-11-05: Expand root AGENTS.md with project context, repository paths, integration boundaries and validation commands; compatible documentation clarification with no skill behavior changes.
 - 2026-10-31: Extend knowledge-maintenance with canonical concern indexing, durable user-decision capture, explicit supersession and scoped evidence coverage.
 - 2026-10-31: Add a packaged knowledge-base reference and shared index template, with guarded publication and saved-content verification guidance.
 - 2026-10-31: Update usage documentation and handoff while preserving existing drift-review prompts and Claude Code, Codex and Antigravity layouts.
